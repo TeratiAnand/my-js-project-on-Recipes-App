@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+#outer{
+height: 400px;
+width: 400px;
+background-color: yellow;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#inner{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    display: flex;
+justify-content: center;
+align-items: center;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }

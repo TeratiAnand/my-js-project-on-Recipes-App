@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation-name: ismart;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: os;
+    animation-direction: alternate; */
+ 
+
+
+/* div{
+    animation-name: ismart;
+   animation-name: ismart;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: os;
+    animation-direction: reverse;
+    animation-direction:alternate-reverse;
+    animation: smart 500ms ease 0s ii direction fill-mode;
+}
+@keyframes ismart{
+    form{
+        font: size 10px;
+
+    }
+    to{
+        font-size: 80px;
+
+    } */
+
+/* img{
+    border-radius: 50%;
+    animation-name: ismart;
+    animation-duration:700ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: os;
+    animation-direction: normal;
+   
+    animation: smart 500ms ease 0s ii direction fill-mode;
+
+} */
+/* @keyframes ismart{
+    from{
+        rotate:0deg;
+
+    }
+    to{
+        rotate: 360deg;
+    }
+} */
+
+ #main_container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+    background:red
+    }
+    
+#main_container h1{
+    font-family: Honk;
+    font-size: 80px;
+    letter-spacing: 10px;
+}
+#img_container{
+    height: 500px;
+    width: 888px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#img_container{
+    height: 500px;
+    width: 888px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: red;
+
+}
+img{
+    min-width: 100%;
+    animation: slider 10s 0s ease alternate infinite;
+}
+
+@keyframes slider{
+    0%{
+    transform:translateX(0%);
+}25%{
+    transform:translateX(-100%);
+}50%{
+    transform:translateX(-200%);
+}75%{
+    transform:translateX(-300%);
+}100%{
+    transform:translateX(-300%);
+}}

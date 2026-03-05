@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* div{
+    height: 350px;
+    width: 350px;
+    background-color: red;
+    position: relative;
+    top: 50px;
+    left: 60px;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+
+
+}
+div:hover{
+    border-radius: 50%;
+    background-color: yellow;
+    border: 10px solid pink;
+} */
+section{
+    height: 200px;
+    width: 100px;
+    background-color: green;
+    transition-property: all;
+    transition-duration: 8s;
+    transition-delay: 3s;
+    transition-timing-function: linear;
+ 
+}
+section:hover{
+    height: 500px;
+    width: 100vw;
+    background-color: green;
+      font-display: red;
+}
+

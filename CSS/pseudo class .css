@@ -1,0 +1,22 @@
+/* hover
+button:hover{
+    color: blue;
+}
+h1:hover{
+    color: blue;
+}
+
+active
+
+a:active{
+    color: blue;
+}
+/* 
+/* visited */
+/* a:visited{
+    color: brown;
+    background-color: black;
+/* } */ 
+li:not(.ignore){
+color: blue;
+}

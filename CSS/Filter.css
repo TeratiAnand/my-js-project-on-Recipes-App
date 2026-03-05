@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+     margin: 70px 0px 0px 220px;
+    height: 600px; 
+    
+}
+img{
+    filter:blur(10px); 
+     filter: brightness(10%);
+     
+      filter: grayscale(50%);
+
+filter: drop-shadow(20px 20px 55px red);
+
+}

@@ -1,0 +1,30 @@
+/* decendent selector */
+
+secton p{
+    color:red;
+}
+
+
+/* 
+article p{
+    color: aquamarine;
+} */
+
+/* section>p{
+    color: brown;
+} */
+ /* h1+p{ */
+    /* color: red;
+    background-color: yellowgreen;
+ } */
+ /* p+p{
+    color: brown;
+    background-color: aquamarine;
+ } */
+  
+/* p~p{
+    color: blue;
+    background-color: lightblue;
+} */
+
+

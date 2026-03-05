@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./frnd.css" />
+    <style>
+      /* Remove underline from anchor tags */
+      a.profile {
+        text-decoration: none; /* Removes underline */
+        color: #525d6f;
+      }
+
+      /* Optional: Styling for the anchor tag */
+      a.profile:hover {
+        color: #69686b; /* Optional: Change color on hover */
+      }
+      a.education {
+        text-decoration: none;
+        color: #525d6f;
+      }
+      a.education:hover {
+        color: #69686b;
+      }
+      a.resume {
+        text-decoration: none;
+        color: #525d6f;
+      }
+      a.resume:hover {
+        color: #69686b;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="popup">
+      <div class="tabs">
+        <input type="radio" id="tab1" name="tab" checked="true" />
+        <label for="tab1" target="container">
+          <a class="profile" href="./navigates/profile.html">Profile</a>
+        </label>
+        <input type="radio" id="tab2" name="tab" />
+        <label for="tab2">
+          <a class="education" href="./navigates/education.html">Education</a>
+        </label>
+        <input type="radio" id="tab3" name="tab" />
+        <label for="tab3" target="container">
+          <a class="resume" href="./navigates/resume.html">Resume</a>
+        </label>
+        <input type="radio" id="tab4" name="tab" />
+        <label for="tab4" target="container">
+          <a class="resume" href="./navigates/personaldetails.html"
+            >Personal Details</a
+          >
+        </label>
+        <input type="radio" id="tab5" name="tab" />
+        <label for="tab5" target="container">Skills</label>
+        <input type="radio" id="tab6" name="tab" />
+        <label for="tab6" target="container">Contact</label>
+        <div class="marker">
+          <div id="top"></div>
+          <div id="bottom"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

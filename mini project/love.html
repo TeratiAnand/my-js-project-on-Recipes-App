@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Love Letter</title><link rel="stylesheet" href="./love.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Create Your Love Letter</h1>
+        <form id="loveLetterForm">
+            <label for="senderName">Your Name:</label>
+            <input type="text" id="senderName" name="senderName" required><br>
+            <label for="recipientName">Recipient's Name:</label>
+            <input type="text" id="recipientName" name="recipientName" required><br>
+            <button type="button" onclick="generateLetter()">Generate Love Letter</button>
+        </form>
+        <div id="letter" class="letter" style="display: none;"></div>
+    </div>
+    <script src="./love.js"></script>
+</body>
+</html>

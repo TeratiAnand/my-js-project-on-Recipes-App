@@ -1,0 +1,146 @@
+
+   *{
+
+margin: 0;
+
+box-sizing: border-box;
+
+}
+
+nav{
+
+height: 18vh;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 40px;
+
+background-color: rgb(244, 87, 29);
+
+color: white;
+
+}
+
+#logo{
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+font-weight: bold;
+
+font-size: 30px;
+
+letter-spacing: 1px;
+word-spacing: 5px;
+}
+
+
+[type="text"]{
+
+height: 40px;
+
+width: 290px;
+
+border: none;
+
+outline: none;
+
+border-radius: 4px;
+
+padding-left: 10px;
+
+}
+
+[type="submit"]{
+
+height: 40px;
+
+width: 150px;
+
+border: none;
+
+border-radius:5px;
+
+background-color: #333;
+
+color: white;
+
+font-weight: 800;
+
+
+}
+#container{
+   height: 100vh;
+   /* border: 2px solid red; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-items: center;
+   align-items: center;
+   gap: 20px;
+   padding: 20px;
+}
+#recipe_item{
+   height: 350px;
+   width: 250px;
+   border-radius: 20px;
+   margin-top: 20px;
+}
+
+
+#food_img{
+
+   height: 72%;
+   border-radius: 8px;
+}
+#recipe_name{
+   font-size: 1.4rem;
+   font-weight: 700;
+   text-align: center;
+
+}
+ #view_recipe{
+      background-color: rgb(219, 110, 110);
+      cursor: pointer;
+      color: white;
+      font-weight: 700;
+      font-size: 1.2rem;
+  }
+  
+
+
+#ing_ins{
+   
+      height: 100vh;
+      width: 100vw;
+      background-color: rgba(0,0,0,0.5);
+      border: 2px solid red;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: none;
+     color: blueviolet;
+}
+
+#ing_ins_info{
+   height: 65%;
+   width: 40%;
+   background-color: rgb(255, 255, 255);
+   border-radius: 7px;
+   position: relative;
+}
+
+
+#close{
+   position: absolute;
+   right: 15px;
+   top:10px;
+
+}

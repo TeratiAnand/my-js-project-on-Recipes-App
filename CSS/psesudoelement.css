@@ -1,0 +1,37 @@
+/* first letter */
+/* p::first-letter{
+    color:red;
+    font-size: 80px; 
+ }  */
+
+
+/* first line */
+/* p::first-line{
+    color: aliceblue;
+    background-color: blue;
+} */
+
+
+/* before */
+/* p::before{
+    color: blue;
+    content: "💕";
+} */
+
+
+/* 
+ p::before{
+    content: "💕";
+} */
+
+/* markar */
+
+/* li::marker{
+    content:"😘😘😘😘😘" ;
+}
+ */
+
+ /* placeholder */
+input::placeholder{
+      color: chartreuse;
+}

@@ -1,0 +1,32 @@
+ *{
+    margin: 0;
+    box-sizing: border-box; 
+ }
+ body{
+    height: 100vh;
+    width: 100vw; 
+     /* background: linear-gradient(orange,purple,green,blue); */
+     /* background: linear-gradient(to bottom,orange,purple,green,blue);  */
+    /* background: linear-gradient(to top,orange,purple,green,blue);
+    background: linear-gradient(to top right,orange,purple,green,blue);
+    background: linear-gradient(to left bottom,orange,purple,green,blue); 
+      */
+/* background: linear-gradient(to bottom,red,green,yellow);
+background-image: linear-gradient(to right,green 0% 10%,yellow 10% 20%); 
+ background: radial-gradient(circle,red,green,yellow);
+background: radial-gradient(circle,red 0% 20%,green 10% 20%,yellow 40% 60%);
+background: repeating-radial-gradient(circle,red 0% 20%,green 10% 20%,yellow 40% 60%); */
+ }  
+div{
+  height:400px;
+  width: 400px;
+  border: 2px solid black;
+  margin-top: 200px;
+  margin-left: 550px;
+  background: conic-gradient(blue,red,green);
+border-radius: 50%;
+   
+  background: conic-gradient(blue 0% 2%,red 5% 4%,green 10% 20%);
+
+background:repeating-conic-gradient(blue 0% 2%,red 5% 4%,green 1% 2%);
+}

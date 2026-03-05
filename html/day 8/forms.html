@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1><center>Form</center></h1>
+    <fieldset>
+    <form autocomplete="off">
+        <label for="name">Name</label>
+        <input id="name" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input id="email" type="email" readonly value="@gmail.com">
+        <br><br>
+        <label for="password">password</label>
+        <input id="password" type="password" placeholder="special charracter not">
+        <br><br>
+        <label for="salary">salary:</label>
+        <input id="salary" type="number" placeholder="annuval salary">
+        <br><br>
+        <label for="mob">mobile number:</label>
+        <input type="number" id="mob" maxlength="10">
+        <br><br>
+        <label >Gender:</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" checked>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" disabled>
+        <label for="other">Others</label>
+        <br><br>
+        <label for="dob"> DOB</label>
+        <input type="datetime-local" id="dob">
+        <BR></BR>
+        <label >HABITS:</label>
+        <input type="checkbox" id="drinking">
+        <label for="drinking">Drinking</label> 
+
+        <input type="checkbox" id="reading">
+        <label for="reading">Reading</label>
+        <br><br>
+        <select>
+            <option>--SELECT COUNTRY--</option>
+            <option>INDIA</option>
+            <option>JAPAN</option>
+
+        </select>
+        <br><br>
+        <label>DESCRIPTION:</label>
+        <textarea>
+
+        </textarea>
+        <br><br>
+        <label>Upload Photo:</label>
+        <input type="file" autofocus>
+        <br><br>
+        <input type="submit" value="REGISTER">
+        
+    </form>
+    </fieldset>
+</body>
+</html>

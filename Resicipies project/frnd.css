@@ -1,0 +1,24 @@
+ /* Remove underline from anchor tags */
+ a.profile {
+    text-decoration: none; /* Removes underline */
+    color: #525d6f;
+  }
+
+  /* Optional: Styling for the anchor tag */
+  a.profile:hover {
+    color: #69686b; /* Optional: Change color on hover */
+  }
+  a.education {
+    text-decoration: none;
+    color: #525d6f;
+  }
+  a.education:hover {
+    color: #69686b;
+  }
+  a.resume {
+    text-decoration: none;
+    color: #525d6f;
+  }
+  a.resume:hover {
+    color: #69686b;
+  }

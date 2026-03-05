@@ -1,0 +1,41 @@
+/* button:hover{
+    color: beige;
+    background-color: black;
+} */
+
+/* 
+h1:hover{
+    color: red;
+    background-color: blue;
+} */
+
+
+/* a:active{
+    color: bisque;
+} */
+
+/* 
+visited */
+/* 
+a:visited{
+    color: black;
+    background-color: blue;
+} */
+/* 
+/* focus *
+/input:focus{
+    color: greenyellow;
+} */
+
+/* :first-child */
+/* / */
+/* last :nth-child */
+/* div>p:last-child{
+    color: blue; */
+/* } */
+/* nth child */
+<
+div>p:nth-child(3n){
+    color: green;
+}
+<
