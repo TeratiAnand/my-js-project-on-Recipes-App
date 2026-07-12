@@ -1,6 +1,6 @@
 # 🍽️ Recipes App
 
-A modern and responsive **Recipes App** built with **React.js** and **Vite** that allows users to search, browse, and explore thousands of delicious recipes using **TheMealDB API**. Users can view recipe details including ingredients, cooking instructions, meal category, cuisine, and tutorial videos.
+A modern and responsive **Recipes App** built with Java script that allows users to search, browse, and explore thousands of delicious recipes using **TheMealDB API**. Users can view recipe details including ingredients, cooking instructions and meal category.
 
 ---
 
